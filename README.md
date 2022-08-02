@@ -1,4 +1,4 @@
-#   SOOQ
+#   SOUQ
 
 A new Flutter project.
 
