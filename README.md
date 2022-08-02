@@ -1,17 +1,30 @@
 
-#SOUQ App with Flutter 
+#SOUQ App with Flutter
+
 By using :
+
 Clean code 
-Dio package 
-Bloc as a state Management 
+
+Dio package
+
+Bloc as a state Management
+
 Shared preference 
+
 you can :
+
 -login with email and password
+
 -Add, Update and delete Address
+
 -Add to your cart 
+
 -Add to your favourite list
+
 -Update user name ,email,phone and profile image
+
 -Search for products
+
 -Change password
 
 <img src="https://user-images.githubusercontent.com/101335124/182322007-5cb93d74-8092-49ed-a47e-78bd6f9daf76.jpg" width=720px% height=600px%>
