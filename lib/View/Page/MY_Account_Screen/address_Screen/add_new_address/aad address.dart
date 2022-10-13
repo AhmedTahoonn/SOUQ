@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../../../../Bloc/HomePage_Cubit/cubit.dart';
-import '../../../../Bloc/HomePage_Cubit/states.dart';
-import '../../../../styles/Colors_Style.dart';
+import '../../../../../Constant/styles/Colors_Style.dart';
+import '../../../../../Constant/styles/icon_broken.dart';
+import '../../../../../View_Model/Bloc/HomePage_Cubit/cubit.dart';
+import '../../../../../View_Model/Bloc/HomePage_Cubit/states.dart';
 
-import '../../../../styles/icon_broken.dart';
 
 class AddAddressScreen extends StatelessWidget {
   TextEditingController nameControl = TextEditingController();

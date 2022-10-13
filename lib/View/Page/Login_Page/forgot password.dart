@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../../Bloc/login cubit/cubit/Login_Cubit.dart';
+import '../../../Constant/styles/Colors_Style.dart';
+import '../../../View_Model/Bloc/login cubit/cubit/Login_Cubit.dart';
+import '../../../View_Model/Bloc/login cubit/cubit/states.dart';
 
-import '../../Bloc/login cubit/cubit/states.dart';
-import '../../styles/Colors_Style.dart';
 
 class forgot extends StatelessWidget {
   var formKey = GlobalKey<FormState>();
@@ -162,7 +162,7 @@ class forgot extends StatelessWidget {
       },
       listener: (context,state)
       {
-        
+
       },
     );
   }

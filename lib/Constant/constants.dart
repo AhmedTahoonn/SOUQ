@@ -1,7 +1,5 @@
-
-import 'package:dioo/modules/Login_Page/Login_Screen.dart';
-
-import '../shared/networks/local/cache_helper.dart';
+import '../View/Page/Login_Page/Login_Screen.dart';
+import '../View_Model/network/local/cache_helper.dart';
 import 'components/components.dart';
 /*
 base (url):https://newsapi.org/

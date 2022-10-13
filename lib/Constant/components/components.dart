@@ -1,9 +1,10 @@
 //import 'package:udemy_first_app/modules/login/login_screen.dart.dart';
-import 'package:dioo/styles/Colors_Style.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 
-import '../../styles/icon_broken.dart';
+import '../styles/Colors_Style.dart';
+import '../styles/icon_broken.dart';
+
 
 void navigateTo(context, widget) => Navigator.push(
       context,

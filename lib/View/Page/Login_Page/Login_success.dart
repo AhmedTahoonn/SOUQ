@@ -1,6 +1,8 @@
-import 'package:dioo/modules/Home_layout/shop_layout.dart';
-import 'package:dioo/styles/Colors_Style.dart';
+
 import 'package:flutter/material.dart';
+
+import '../../../Constant/styles/Colors_Style.dart';
+import '../Home_layout/shop_layout.dart';
 
 class Success extends StatelessWidget {
   const Success({Key? key}) : super(key: key);

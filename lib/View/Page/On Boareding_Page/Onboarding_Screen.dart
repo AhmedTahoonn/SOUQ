@@ -1,10 +1,12 @@
 
-import 'package:dioo/modules/Login_Page/Login_Screen.dart';
-import 'package:dioo/shared/networks/local/cache_helper.dart';
 import 'package:flutter/material.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
-import '../../Constant/components/components.dart';
-import '../../styles/Colors_Style.dart';
+
+import '../../../Constant/components/components.dart';
+import '../../../Constant/styles/Colors_Style.dart';
+import '../../../View_Model/network/local/cache_helper.dart';
+import '../Login_Page/Login_Screen.dart';
+
 
 class BoardingModel {
   final String image;

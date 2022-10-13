@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import '../../Bloc/HomePage_Cubit/cubit.dart';
-import '../../Bloc/HomePage_Cubit/states.dart';
-import '../../styles/icon_broken.dart';
-import '../Login_Page/Login_Screen.dart';
-import '../../styles/Colors_Style.dart';
 
-import '../../shared/networks/local/cache_helper.dart';
+import '../../../Constant/styles/icon_broken.dart';
+import '../../../View_Model/Bloc/HomePage_Cubit/cubit.dart';
+import '../../../View_Model/Bloc/HomePage_Cubit/states.dart';
+import '../../../View_Model/network/local/cache_helper.dart';
+import '../Login_Page/Login_Screen.dart';
 import '../Favourite_Screen/favourite_Screen.dart';
 import 'address_Screen/address screen.dart';
 import 'profile_screen/profile_Screen.dart';

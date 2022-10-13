@@ -1,19 +1,19 @@
-import 'package:dioo/Bloc/Register_cubit/cubit/cubit.dart';
-import 'package:dioo/Bloc/login%20cubit/cubit/states.dart';
-import 'package:dioo/modules/Login_Page/Login_Screen.dart';
-import 'package:dioo/modules/Home_layout/shop_layout.dart';
-import 'package:dioo/modules/On%20Boareding_Page/Onboarding_Screen.dart';
-import 'package:dioo/shared/networks/end_points.dart';
-import 'package:dioo/shared/networks/local/cache_helper.dart';
-import 'package:dioo/shared/networks/remote/dio_helper.dart';
-import 'package:dioo/styles/themes.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'Bloc/HomePage_Cubit/cubit.dart';
-import 'Bloc/login cubit/cubit/Login_Cubit.dart';
-import 'modules/Login_Page/Login_success.dart';
-import 'modules/Register_Page/RegisterScreen.dart';
-import 'Bloc/bloc_observe.dart';
+
+import 'Constant/styles/themes.dart';
+import 'View/Page/Home_layout/shop_layout.dart';
+import 'View/Page/Login_Page/Login_Screen.dart';
+import 'View/Page/On Boareding_Page/Onboarding_Screen.dart';
+import 'View_Model/Bloc/HomePage_Cubit/cubit.dart';
+import 'View_Model/Bloc/Register_cubit/cubit/cubit.dart';
+import 'View_Model/Bloc/bloc_observe.dart';
+import 'View_Model/Bloc/login cubit/cubit/Login_Cubit.dart';
+import 'View_Model/Bloc/login cubit/cubit/states.dart';
+import 'View_Model/network/end_points.dart';
+import 'View_Model/network/local/cache_helper.dart';
+import 'View_Model/network/remote/dio_helper.dart';
 
 
 Future<void> main() async {

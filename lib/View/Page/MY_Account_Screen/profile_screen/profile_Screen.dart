@@ -1,12 +1,12 @@
 import 'package:conditional_builder_rec/conditional_builder_rec.dart';
-import 'package:dioo/modules/MY_Account_Screen/profile_screen/password_Screen/change%20password.dart';
+import 'package:dioo/View/Page/MY_Account_Screen/profile_screen/password_Screen/change%20password.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../../../Bloc/HomePage_Cubit/cubit.dart';
-import '../../../Bloc/HomePage_Cubit/states.dart';
-import '../../../styles/Colors_Style.dart';
-import '../../../styles/icon_broken.dart';
+import '../../../../Constant/styles/Colors_Style.dart';
+import '../../../../Constant/styles/icon_broken.dart';
+import '../../../../View_Model/Bloc/HomePage_Cubit/cubit.dart';
+import '../../../../View_Model/Bloc/HomePage_Cubit/states.dart';
 
 
 class settings_Screen extends StatelessWidget {

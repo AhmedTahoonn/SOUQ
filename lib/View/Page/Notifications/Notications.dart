@@ -1,11 +1,11 @@
-
-import 'package:dioo/styles/icon_broken.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../../Bloc/HomePage_Cubit/cubit.dart';
-import '../../Bloc/HomePage_Cubit/states.dart';
-import '../../models/Notications_model/Notifications_model.dart';
+import '../../../Constant/styles/icon_broken.dart';
+import '../../../Model/Notications_model/Notifications_model.dart';
+import '../../../View_Model/Bloc/HomePage_Cubit/cubit.dart';
+import '../../../View_Model/Bloc/HomePage_Cubit/states.dart';
+
 
 
 
